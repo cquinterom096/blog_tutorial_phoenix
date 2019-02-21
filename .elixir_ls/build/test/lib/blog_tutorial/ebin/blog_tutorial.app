@@ -13,6 +13,7 @@
                         'Elixir.BlogTutorial.User','Elixir.BlogTutorialWeb',
                         'Elixir.BlogTutorialWeb.AuthController',
                         'Elixir.BlogTutorialWeb.ChannelCase',
+                        'Elixir.BlogTutorialWeb.CommentsChannel',
                         'Elixir.BlogTutorialWeb.ConnCase',
                         'Elixir.BlogTutorialWeb.Endpoint',
                         'Elixir.BlogTutorialWeb.ErrorHelpers',
@@ -27,7 +28,9 @@
                         'Elixir.BlogTutorialWeb.Router.Helpers',
                         'Elixir.BlogTutorialWeb.TopicController',
                         'Elixir.BlogTutorialWeb.TopicView',
-                        'Elixir.BlogTutorialWeb.UserSocket']},
+                        'Elixir.BlogTutorialWeb.UserSocket',
+                        'Elixir.Jason.Encoder.BlogTutorial.Comment',
+                        'Elixir.Jason.Encoder.BlogTutorial.User']},
               {registered,[]},
               {vsn,"0.1.0"},
               {mod,{'Elixir.BlogTutorial.Application',[]}}]}.
